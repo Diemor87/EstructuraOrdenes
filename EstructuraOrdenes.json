@@ -1,0 +1,28 @@
+{
+  "orden": {
+    "id_orden": 1001,
+    "fecha": "2026-11-06",
+    "estado": "confirmada",
+    "cliente": {
+      "id_cliente": 501,
+      "nombre": "Cliente Ejemplo",
+      "correo": "cliente@ejemplo.com"
+    },
+    "servicios": [
+      {
+        "tipo": "vuelo",
+        "origen": "Santiago (SCL)",
+        "destino": "Madrid (MAD)",
+        "fecha_salida": "2026-12-10",
+        "precio_usd": 850.0
+      },
+      {
+        "tipo": "hotel",
+        "ciudad": "Madrid",
+        "noches": 5,
+        "precio_usd": 600.0
+      }
+    ],
+    "total_usd": 1450.0
+  }
+}
